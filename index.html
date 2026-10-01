@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TATA AIRLINES | Explore The World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">✈ TATA AIRLINES</h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h4>WELCOME TO TATA AIRLINES</h4>
+
+            <h1>Explore The World<br>
+                <span>With Happiness!</span>
+            </h1>
+
+            <p>
+                Discover beautiful destinations,
+                enjoy amazing holidays and create
+                unforgettable memories with us.
+            </p>
+
+            <a href="#booking" class="main-btn">
+                Book Your Journey
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FLIGHT SEARCH -->
+
+    <section class="booking" id="booking">
+
+        <h2>Find Your Next Flight ✈</h2>
+
+        <form id="flightForm">
+
+            <div class="input-group">
+                <label>From</label>
+                <input type="text" id="from"
+                    placeholder="Departure city" required>
+            </div>
+
+            <div class="input-group">
+                <label>To</label>
+                <input type="text" id="to"
+                    placeholder="Destination city" required>
+            </div>
+
+            <div class="input-group">
+                <label>Travel Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="input-group">
+                <label>Passengers</label>
+                <select id="passengers">
+                    <option value="1">1 Passenger</option>
+                    <option value="2">2 Passengers</option>
+                    <option value="3">3 Passengers</option>
+                    <option value="4">4 Passengers</option>
+                    <option value="5">5 Passengers</option>
+                </select>
+            </div>
+
+            <button type="submit" class="search-btn">
+                Search Flights
+            </button>
+
+        </form>
+
+        <p id="bookingMessage"></p>
+
+    </section>
+
+
+    <!-- DESTINATIONS -->
+
+    <section class="destinations" id="destinations">
+
+        <h2>Popular Destinations</h2>
+
+        <p class="subtitle">
+            Explore the world's most beautiful places.
+        </p>
+
+        <div class="destination-container">
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600"
+                    alt="Paris">
+                <h3>Paris, France</h3>
+                <p>Experience the city of love.</p>
+                <a href="#booking">Explore Now →</a>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600"
+                    alt="Dubai">
+                <h3>Dubai, UAE</h3>
+                <p>Discover luxury and adventure.</p>
+                <a href="#booking">Explore Now →</a>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600"
+                    alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Enjoy tropical beach holidays.</p>
+                <a href="#booking">Explore Now →</a>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600"
+                    alt="Switzerland">
+                <h3>Switzerland</h3>
+                <p>Explore beautiful mountain views.</p>
+                <a href="#booking">Explore Now →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <div>
+                <h4>ABOUT OUR AIRLINE</h4>
+
+                <h2>Your Journey, Our Passion.</h2>
+
+                <p>
+                    TATA AIRLINES is a travel website concept
+                    created to make exploring destinations
+                    simple and enjoyable.
+
+                    Discover exciting places, plan your
+                    holidays and experience the joy of travel.
+                </p>
+
+                <a href="#contact" class="main-btn">
+                    Contact Us
+                </a>
+            </div>
+
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900"
+                alt="Airplane flying in the sky">
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="features">
+
+        <h2>Why Travel With Us?</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <h3>🌍</h3>
+                <h4>Global Destinations</h4>
+                <p>Discover amazing places worldwide.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>💰</h3>
+                <h4>Affordable Travel</h4>
+                <p>Plan holidays around your budget.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🎧</h3>
+                <h4>Customer Support</h4>
+                <p>Get help with your travel enquiries.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact TATA AIRLINES</h2>
+
+        <p>Have questions? We would love to hear from you!</p>
+
+        <form id="contactForm">
+
+            <input type="text" id="customerName"
+                placeholder="Your Name" required>
+
+            <input type="email" id="customerEmail"
+                placeholder="Your Email" required>
+
+            <textarea id="customerMessage"
+                placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="main-btn">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="contactStatus"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>✈ TATA AIRLINES</h2>
+
+        <p>Explore More. Travel More. Live More.</p>
+
+        <p>© 2026 TATA AIRLINES. Demo website.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html
